@@ -1,0 +1,24 @@
+{
+  "name": "kaicalls",
+  "displayName": "KaiCalls",
+  "version": "0.1.0",
+  "description": "Official KaiCalls plugin for AI phone agents, outbound calls, call review, and KaiCalls MCP access.",
+  "author": {
+    "name": "KaiCalls",
+    "email": "support@kaicalls.com",
+    "url": "https://www.kaicalls.com"
+  },
+  "homepage": "https://www.kaicalls.com/docs/api",
+  "repository": "https://github.com/cgallic/kaicalls-plugin",
+  "license": "MIT",
+  "keywords": [
+    "kaicalls",
+    "voice-ai",
+    "phone-calls",
+    "mcp",
+    "agents"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "commands": "./commands/"
+}

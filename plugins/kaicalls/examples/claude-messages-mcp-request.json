@@ -1,0 +1,27 @@
+{
+  "model": "claude-opus-4-8",
+  "max_tokens": 1000,
+  "messages": [
+    {
+      "role": "user",
+      "content": "List my recent KaiCalls calls."
+    }
+  ],
+  "mcp_servers": [
+    {
+      "type": "url",
+      "url": "https://www.kaicalls.com/api/mcp",
+      "name": "kaicalls",
+      "authorization_token": "OAUTH_ACCESS_TOKEN"
+    }
+  ],
+  "tools": [
+    {
+      "type": "mcp_toolset",
+      "mcp_server_name": "kaicalls"
+    }
+  ],
+  "betas": [
+    "mcp-client-2025-11-20"
+  ]
+}

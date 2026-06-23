@@ -1,0 +1,20 @@
+{
+  "name": "kaicalls",
+  "interface": {
+    "displayName": "KaiCalls"
+  },
+  "plugins": [
+    {
+      "name": "kaicalls",
+      "source": {
+        "source": "local",
+        "path": "./plugins/kaicalls"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

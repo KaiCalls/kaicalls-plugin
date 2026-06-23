@@ -1,0 +1,43 @@
+{
+  "name": "kaicalls",
+  "version": "0.1.0",
+  "description": "Official KaiCalls plugin for AI phone agents, outbound calls, call review, and KaiCalls MCP access.",
+  "author": {
+    "name": "KaiCalls",
+    "email": "support@kaicalls.com",
+    "url": "https://www.kaicalls.com"
+  },
+  "homepage": "https://www.kaicalls.com/docs/api",
+  "repository": "https://github.com/cgallic/kaicalls-plugin",
+  "license": "MIT",
+  "keywords": [
+    "kaicalls",
+    "voice-ai",
+    "phone-calls",
+    "mcp",
+    "agents"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "KaiCalls",
+    "shortDescription": "Give your AI agent a phone with KaiCalls.",
+    "longDescription": "Use KaiCalls to connect AI agents to phone calls: list agents, review recent calls, read transcripts, and start approved outbound calls through the hosted KaiCalls MCP connector or public REST API.",
+    "developerName": "KaiCalls",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://www.kaicalls.com",
+    "privacyPolicyURL": "https://www.kaicalls.com/privacy-policy",
+    "termsOfServiceURL": "https://www.kaicalls.com/terms-of-service",
+    "defaultPrompt": [
+      "Connect my KaiCalls account.",
+      "Show my recent KaiCalls calls.",
+      "Call this lead with my KaiCalls agent."
+    ],
+    "brandColor": "#2563EB"
+  }
+}

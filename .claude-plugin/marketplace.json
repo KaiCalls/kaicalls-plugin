@@ -1,0 +1,21 @@
+{
+  "name": "kaicalls",
+  "owner": {
+    "name": "KaiCalls",
+    "email": "support@kaicalls.com"
+  },
+  "description": "Official KaiCalls plugin marketplace for AI phone agents and the hosted KaiCalls MCP connector.",
+  "version": "0.1.0",
+  "plugins": [
+    {
+      "name": "kaicalls",
+      "source": "./plugins/kaicalls",
+      "description": "Give your AI agent a phone with KaiCalls.",
+      "version": "0.1.0",
+      "author": {
+        "name": "KaiCalls",
+        "email": "support@kaicalls.com"
+      }
+    }
+  ]
+}
