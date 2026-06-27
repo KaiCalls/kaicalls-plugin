@@ -9,7 +9,7 @@
     "url": "https://www.kaicalls.com"
   },
   "homepage": "https://www.kaicalls.com/docs/api",
-  "repository": "https://github.com/cgallic/kaicalls-plugin",
+  "repository": "https://github.com/KaiCalls/kaicalls-plugin",
   "license": "MIT",
   "keywords": [
     "kaicalls",

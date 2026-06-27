@@ -17,7 +17,7 @@ This is the official KaiCalls plugin package.
 Repository URL:
 
 ```text
-https://github.com/cgallic/kaicalls-plugin
+https://github.com/KaiCalls/kaicalls-plugin
 ```
 
 ## Zip Submission

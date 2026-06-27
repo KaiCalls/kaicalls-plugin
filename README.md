@@ -11,7 +11,7 @@ https://www.kaicalls.com/api/mcp
 ## Install In Claude Code
 
 ```bash
-claude plugin marketplace add cgallic/kaicalls-plugin
+claude plugin marketplace add KaiCalls/kaicalls-plugin
 claude plugin install kaicalls@kaicalls
 ```
 
@@ -24,7 +24,7 @@ Then start a new Claude Code session and use:
 ## Install In Codex
 
 ```bash
-codex plugin marketplace add cgallic/kaicalls-plugin
+codex plugin marketplace add KaiCalls/kaicalls-plugin
 ```
 
 Then open the Codex plugin directory, choose the KaiCalls marketplace, and install KaiCalls.

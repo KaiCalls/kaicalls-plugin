@@ -13,7 +13,7 @@ Marketplace manifest:
 Install:
 
 ```bash
-claude plugin marketplace add cgallic/kaicalls-plugin
+claude plugin marketplace add KaiCalls/kaicalls-plugin
 claude plugin install kaicalls@kaicalls
 ```
 
@@ -28,14 +28,14 @@ Marketplace manifest:
 Install:
 
 ```bash
-codex plugin marketplace add cgallic/kaicalls-plugin
+codex plugin marketplace add KaiCalls/kaicalls-plugin
 ```
 
 ## Directory Submission
 
 Use either:
 
-- Public GitHub repository link: `https://github.com/cgallic/kaicalls-plugin`
+- Public GitHub repository link: `https://github.com/KaiCalls/kaicalls-plugin`
 - Release zip asset: `kaicalls-0.1.0.zip`
 
 ## Validation
